@@ -5,4 +5,4 @@ from django.http import HttpResponse
 
 
 def testfun(request):
-    return HttpResponse('hi')
+    return render(request, 'site.html')

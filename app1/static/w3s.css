@@ -1,0 +1,137 @@
+.naviss {
+    background-color: rgba(0, 0, 0, 0.685);
+    overflow: hidden;
+    border-radius: 5px;}
+
+    .naviss font {
+    
+    float: left;
+    color: rgb(243, 239, 239);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    
+
+}
+.head1 {
+    
+    display: grid;
+    grid-template-columns: 200px 200px 100px;
+}
+.head1 img{
+    width: 80px;
+    height: 80px;
+    margin-left: 20%;
+    top: 4px;
+}
+
+.head1 font {
+    text-align:inherit;
+    margin: 20px;
+
+    color: black;
+    
+}
+.naviss font:hover {
+background-color: rgb(24, 148, 24);
+color: rgb(245, 235, 245);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 220px 1fr 220px;
+    grid-template-rows: 1fr auto  auto;
+    grid-gap: 12px;
+    grid-template-areas:
+    
+    "naviga content ads"
+    "footer footer footer";
+    height: 100vh;
+   
+}
+.naviga{
+    
+    text-align: center;
+    background-color: lightgrey;
+}
+.content{
+   
+    text-align: center;
+    
+}
+
+.footer{
+    
+    grid-column: 1 / 4;
+    height: 100px;
+    text-align: center;
+}
+.naviga font {
+    
+    float:left;
+    color: rgb(19, 18, 18);
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+
+}
+.naviga font:hover{
+    background-color: rgb(24, 148, 80);
+color: rgb(250, 244, 244);
+}
+.content img {
+    
+    padding-top: 30px;
+    width :100px;
+    height :100px; 
+}
+.footer font{
+    font-size: xx-small;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+    
+}
+.color img{
+    width: 150px;
+    height: 150px;
+    padding-left: 15%;
+
+}
+.color font{
+    padding-left: 25s;
+    
+    color: rgb(14, 13, 13);
+   
+    border-radius: 5px;
+    margin-left: 28%;
+    text-align: center;
+}
+.color font:hover{
+    background-color: springgreen;
+    color: honeydew;
+    
+}
+.w3ly{ 
+    
+    margin-top: 40%;
+    height: 299px;
+}
+.w3ly img{
+    padding-left: 28px;
+
+}
+.w3ly font{
+    padding-left: 25s;
+    
+    margin-left: 23%;
+    border-radius: 5px;
+    
+}
+.w3ly font:hover{ background-color: springgreen;
+    color: honeydew;
+
+}
+
+
